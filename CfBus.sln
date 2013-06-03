@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfBus", "CfBus\CfBus.csproj", "{9124F139-FD0F-434D-964C-D8D6446D497F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfBus.CashierApplication", "CfBus.Demo\CfBus.CashierApplication.csproj", "{83B78E08-1A28-4B81-AD1C-5B99A09AFC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfBus.ClientDemo", "CfBus.ClientDemo\CfBus.ClientDemo.csproj", "{2DD885D2-596C-411B-A587-969D191AA02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfBus.CustomerApplication", "CfBus.CustomerApplication\CfBus.CustomerApplication.csproj", "{EE42E3AD-E1C5-4017-ABDF-10B912180050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RetardedStarbucksPattern", "RetardedStarbucksPattern", "{6F734E8A-8413-4AED-A894-C06680F252DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfBus.Starbucks.Messages", "CfBus.Starbucks.Messages\CfBus.Starbucks.Messages.csproj", "{F6E9FA10-6EE9-460F-AD30-27E33FB8329C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9124F139-FD0F-434D-964C-D8D6446D497F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9124F139-FD0F-434D-964C-D8D6446D497F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9124F139-FD0F-434D-964C-D8D6446D497F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9124F139-FD0F-434D-964C-D8D6446D497F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B78E08-1A28-4B81-AD1C-5B99A09AFC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B78E08-1A28-4B81-AD1C-5B99A09AFC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B78E08-1A28-4B81-AD1C-5B99A09AFC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B78E08-1A28-4B81-AD1C-5B99A09AFC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD885D2-596C-411B-A587-969D191AA02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD885D2-596C-411B-A587-969D191AA02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD885D2-596C-411B-A587-969D191AA02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD885D2-596C-411B-A587-969D191AA02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE42E3AD-E1C5-4017-ABDF-10B912180050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE42E3AD-E1C5-4017-ABDF-10B912180050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE42E3AD-E1C5-4017-ABDF-10B912180050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE42E3AD-E1C5-4017-ABDF-10B912180050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E9FA10-6EE9-460F-AD30-27E33FB8329C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E9FA10-6EE9-460F-AD30-27E33FB8329C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E9FA10-6EE9-460F-AD30-27E33FB8329C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E9FA10-6EE9-460F-AD30-27E33FB8329C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE42E3AD-E1C5-4017-ABDF-10B912180050} = {6F734E8A-8413-4AED-A894-C06680F252DA}
+		{83B78E08-1A28-4B81-AD1C-5B99A09AFC43} = {6F734E8A-8413-4AED-A894-C06680F252DA}
+		{F6E9FA10-6EE9-460F-AD30-27E33FB8329C} = {6F734E8A-8413-4AED-A894-C06680F252DA}
+		{2DD885D2-596C-411B-A587-969D191AA02E} = {6F734E8A-8413-4AED-A894-C06680F252DA}
+	EndGlobalSection
+EndGlobal
